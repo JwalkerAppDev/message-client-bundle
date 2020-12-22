@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  message-client-bundle-php:
+    image: 019621153437.dkr.ecr.us-west-2.amazonaws.com/php-fpm-nginx:latest
+    container_name: ${DOCKER_RUNNING_IMAGE_NAME}
+    ports:
+      - ${NGINX_PORT}81
+    volumes:
+      - .:/opt/app-root/src
+      - ./logs/symfony:/opt/app-root/src/var/log
+      - ./logs/nginx:/var/log/nginx
+    env_file:
+      - .env
+
+  message-client-bundle-rabbitmq:
+    image: library/rabbitmq:3.8.3
+    container_name: ${DOCKER_RUNNING_IMAGE_NAME}-rabbitmq
+    volumes:
+      - ./docker/rabbitmq:/etc/rabbitmq
+    ports:
+      - ${DOCKER_RABBITMQ_PORT}5672
+      - ${DOCKER_RABBITMQ_MANAGEMENT_PORT}15672
+    healthcheck:
+      test:
+        - CMD
+        - rabbitmqctl
+        - status
