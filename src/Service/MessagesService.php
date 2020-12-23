@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Service;
+namespace StocksApiBundles\MessageClient\Service;
 
 use ApiPlatform\Core\Api\IriConverterInterface;
 use App\MessageClient\ClientPublisher\ClientPublisher;

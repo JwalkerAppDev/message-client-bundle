@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Bridge\Symfony\Messenger\Message\Traits;
+namespace StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\Message\Traits;
 
 use App\MessageClient\Bridge\Symfony\Messenger\Message\EntityMessageAwareInterface;
 use App\MessageClient\Bridge\Symfony\Messenger\Message\MessageAwareInterface;

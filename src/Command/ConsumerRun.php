@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Command;
+namespace StocksApiBundles\MessageClient\Command;
 
 use App\MessageClient\BunnyAsyncClient;
 use App\MessageClient\ClientListener\ClientListenerProvider;

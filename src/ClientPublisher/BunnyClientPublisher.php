@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\ClientPublisher;
+namespace StocksApiBundles\MessageClient\ClientPublisher;
 
 use App\MessageClient\Exception\ConnectionException;
 use App\MessageClient\Exception\PublishException;

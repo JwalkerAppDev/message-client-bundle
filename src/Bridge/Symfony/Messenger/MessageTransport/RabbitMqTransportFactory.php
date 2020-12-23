@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Bridge\Symfony\Messenger\MessageTransport;
+namespace StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\MessageTransport;
 
 use App\MessageClient\ClientPublisher\ClientPublisher;
 use Psr\Log\LoggerInterface;

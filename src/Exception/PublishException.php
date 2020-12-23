@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Exception;
+namespace StocksApiBundles\MessageClient\Exception;
 
 class PublishException extends Exception
 {

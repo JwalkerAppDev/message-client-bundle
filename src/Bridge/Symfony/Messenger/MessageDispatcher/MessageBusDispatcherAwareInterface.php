@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Bridge\Symfony\Messenger\MessageDispatcher;
+namespace StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\MessageDispatcher;
 
 use Symfony\Component\Messenger\MessageBusInterface;
 

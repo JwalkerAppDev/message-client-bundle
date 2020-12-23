@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Entity;
+namespace StocksApiBundles\MessageClient\Entity;
 
 interface MessagesEntityInterface
 {

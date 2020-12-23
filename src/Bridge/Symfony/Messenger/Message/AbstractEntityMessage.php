@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Bridge\Symfony\Messenger\Message;
+namespace StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\Message;
 
 use App\MessageClient\Bridge\Symfony\Messenger\Message\Traits\EntityMessageAwareTrait;
 use Ramsey\Uuid\UuidInterface;

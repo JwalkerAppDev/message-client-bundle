@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient;
+namespace StocksApiBundles\MessageClient;
 
 use App\MessageClient\Protocol\Credentials;
 use Psr\Log\LoggerAwareInterface;

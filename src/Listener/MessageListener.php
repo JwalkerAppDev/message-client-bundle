@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Listener;
+namespace StocksApiBundles\MessageClient\Listener;
 
 use App\MessageClient\Entity\MessagesEntityInterface;
 use App\MessageClient\Service\MessagesService;

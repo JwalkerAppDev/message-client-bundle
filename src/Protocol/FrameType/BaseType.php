@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Protocol\FrameType;
+namespace StocksApiBundles\MessageClient\Protocol\FrameType;
 
 use App\MessageClient\Exception\InvalidFrameType;
 use App\MessageClient\Protocol\FrameType;

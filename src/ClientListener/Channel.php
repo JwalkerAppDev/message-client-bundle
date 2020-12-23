@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\ClientListener;
+namespace StocksApiBundles\MessageClient\ClientListener;
 
 use App\MessageClient\Protocol\Packet;
 use React\Promise\ExtendedPromiseInterface as Promise;

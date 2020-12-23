@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Protocol;
+namespace StocksApiBundles\MessageClient\Protocol;
 
 use Lcobucci\JWT\Parser;
 

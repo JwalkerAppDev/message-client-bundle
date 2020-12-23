@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient;
+namespace StocksApiBundles\MessageClient;
 
 use Bunny\Async\Client;
 use Bunny\Exception\ClientException;

@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient\Protocol\FrameType;
+namespace StocksApiBundles\MessageClient\Protocol\FrameType;
 
 class UnsubscribeNackType extends BaseType
 {

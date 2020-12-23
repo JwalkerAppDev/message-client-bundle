@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\MessageClient;
+namespace StocksApiBundles\MessageClient;
 
 use App\MessageClient\BunnyAsyncClient as Client;
 use App\MessageClient\Exception\RabbitAmqpClientException;
