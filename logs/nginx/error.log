@@ -7,3 +7,22 @@
 2020/12/22 16:57:27 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
 2020/12/22 17:00:53 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
 2020/12/22 17:02:10 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 16:24:03 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 16:29:02 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 16:29:26 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 16:40:14 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 16:44:52 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 16:45:01 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 16:45:06 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 16:46:05 [emerg] 1#1: host not found in upstream "stocks-api-php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2020/12/23 18:48:11 [emerg] 25#25: bind() to 0.0.0.0:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to [::]:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to 0.0.0.0:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to [::]:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to 0.0.0.0:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to [::]:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to 0.0.0.0:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to [::]:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to 0.0.0.0:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: bind() to [::]:80 failed (98: Address in use)
+2020/12/23 18:48:11 [emerg] 25#25: still could not bind()

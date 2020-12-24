@@ -7,6 +7,9 @@ local: .env
 	dev-exec make build
 .PHONY:local
 
+build: .env build-dependencies
+.PHONY: build
+
 build-cache:
 	rm -rf var/cache/*
 	bin/console cache:warmup --no-debug --no-interaction
