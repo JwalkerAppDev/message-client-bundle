@@ -1,15 +1,15 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\ClientListener;
 
-use App\MessageClient\Protocol\Packet;
 use React\Promise\ExtendedPromiseInterface as Promise;
+use StocksApiBundles\MessageClientProtocol\Packet;
 
 /**
  * Interface ClientListener.

@@ -1,15 +1,15 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\MessageTransport;
 
-use App\MessageClient\ClientPublisher\ClientPublisher;
 use Psr\Log\LoggerInterface;
+use StocksApiBundles\MessageClientClientPublisher\ClientPublisher;
 use Symfony\Component\Messenger\Transport\TransportInterface;
 use Symfony\Component\Serializer\SerializerInterface;
 

@@ -48,12 +48,6 @@ clean-cs:
 	rm -f .php_cs.cache
 .PHONY: clean-cs
 
-fix-cs:
-	rm -f .php_cs.cache
-	php-cs-fixer fix tests --show-progress=estimating --verbose --config=.php_cs.dist --allow-risky=yes
-	php-cs-fixer fix src --show-progress=estimating --verbose --config=.php_cs.dist --allow-risky=yes
-.PHONY: fix-cs
-
 test: test-unit test-feature
 .PHONY: test
 

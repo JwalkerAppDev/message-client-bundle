@@ -1,0 +1,59 @@
+StocksApiBundles\MessageClient\Entity\Job:
+  attributes:
+    guid:
+      groups:
+        - job.get
+    config:
+      groups:
+        - job.get
+    name:
+      groups:
+        - job.get
+    description:
+      groups:
+        - job.get
+    account:
+      groups:
+        - job.get
+    source:
+      groups:
+        - job.get
+    status:
+      groups:
+        - job.get
+    percentComplete:
+      groups:
+        - job.get
+    jobItems:
+      groups:
+        - job.get
+    jobItemCount:
+      groups:
+        - job.get
+    errorMessage:
+      groups:
+        - job.get
+    errorTrace:
+      groups:
+        - job.get
+    user:
+      groups:
+        - job.get
+    createdAt:
+      groups:
+        - job.get
+    createdBy:
+      groups:
+        - job.get
+    modifiedAt:
+      groups:
+        - job.get
+    modifiedBy:
+      groups:
+        - job.get
+    deactivatedAt:
+      groups:
+        - job.get
+    deactivatedBy:
+      groups:
+        - job.get

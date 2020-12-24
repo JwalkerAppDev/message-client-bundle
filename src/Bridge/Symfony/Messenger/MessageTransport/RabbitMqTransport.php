@@ -1,17 +1,17 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\MessageTransport;
 
-use App\MessageClient\ClientPublisher\ClientPublisher;
-use App\MessageClient\Exception\InvalidPacket;
-use App\MessageClient\Protocol\Packet;
 use Psr\Log\LoggerInterface;
+use StocksApiBundles\MessageClientClientPublisher\ClientPublisher;
+use StocksApiBundles\MessageClientException\InvalidPacket;
+use StocksApiBundles\MessageClientProtocol\Packet;
 use Symfony\Component\Messenger\Envelope;
 use Symfony\Component\Messenger\Transport\TransportInterface;
 

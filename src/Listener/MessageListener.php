@@ -1,18 +1,18 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\Listener;
 
-use App\MessageClient\Entity\MessagesEntityInterface;
-use App\MessageClient\Service\MessagesService;
 use Doctrine\ORM\Event\PostFlushEventArgs;
 use Doctrine\Persistence\Event\LifecycleEventArgs;
 use Psr\Log\LoggerInterface;
+use StocksApiBundles\MessageClientEntity\MessagesEntityInterface;
+use StocksApiBundles\MessageClientService\MessagesService;
 use Symfony\Component\Console\Event\ConsoleCommandEvent;
 use Symfony\Component\Console\Event\ConsoleErrorEvent;
 use Symfony\Component\Console\Event\ConsoleTerminateEvent;

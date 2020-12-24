@@ -1,15 +1,15 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\Message;
 
-use App\MessageClient\Bridge\Symfony\Messenger\Message\Traits\EntityMessageAwareTrait;
 use Ramsey\Uuid\UuidInterface;
+use StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\Message\Traits\EntityMessageAwareTrait;
 
 /**
  * Class AbstractEntityMessage.

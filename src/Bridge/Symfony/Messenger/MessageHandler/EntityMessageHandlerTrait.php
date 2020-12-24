@@ -1,16 +1,16 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\MessageHandler;
 
-use App\Entity\Interfaces\EntityInterface;
-use App\MessageClient\Bridge\Symfony\Messenger\Message\EntityMessageAwareInterface;
 use Doctrine\Persistence\ManagerRegistry;
+use StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\Message\EntityMessageAwareInterface;
+use StocksApiBundles\MessageClient\Entity\Interfaces\EntityInterface;
 
 /**
  * Trait EntityMessageHandlerTrait.

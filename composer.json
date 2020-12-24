@@ -51,9 +51,12 @@
     "queue-interop/amqp-interop": "^0.8.1",
     "ramsey/uuid": "^4.1",
     "sensiolabs/security-checker": "^6.0",
+    "symfony/amqp-messenger": "^5.1",
     "symfony/console": "^5.1",
     "symfony/framework-bundle": "^5.1",
+    "symfony/mailer": "^5.1",
     "symfony/messenger": "^5.2",
+    "symfony/notifier": "^5.1",
     "symfony/process": "^5.1",
     "symfony/serializer": "^5.1",
     "symfony/yaml": "^5.1"

@@ -1,19 +1,13 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\ClientListener;
 
-use App\MessageClient\ClientFactory;
-use App\MessageClient\Exception\InvalidPacket;
-use App\MessageClient\Exception\QueueConfigurationException;
-use App\MessageClient\Protocol\CredentialHandler;
-use App\MessageClient\Protocol\Credentials;
-use App\MessageClient\Protocol\MessageFactory;
 use Bunny\Async\Client;
 use Bunny\Channel;
 use Bunny\Message;
@@ -22,6 +16,11 @@ use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LoggerInterface;
 use React\Promise;
 use React\Promise\ExtendedPromiseInterface;
+use StocksApiBundles\MessageClientException\InvalidPacket;
+use StocksApiBundles\MessageClientException\QueueConfigurationException;
+use StocksApiBundles\MessageClientProtocol\CredentialHandler;
+use StocksApiBundles\MessageClientProtocol\Credentials;
+use StocksApiBundles\MessageClientProtocol\MessageFactory;
 
 /**
  * Class BunnyListenerProvider.

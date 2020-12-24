@@ -1,20 +1,20 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\ClientListener;
 
-use App\MessageClient\Exception\Exception;
-use App\MessageClient\Protocol\Packet;
 use Bunny\Channel as RabbitBunnyChannel;
 use Bunny\Message;
 use React\Promise\ExtendedPromiseInterface as Promise;
 use function React\Promise\reject;
 use function React\Promise\resolve;
+use StocksApiBundles\MessageClientException\Exception;
+use StocksApiBundles\MessageClientProtocol\Packet;
 
 class BunnyChannel implements Channel
 {

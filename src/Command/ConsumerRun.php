@@ -1,18 +1,17 @@
 <?php
 
 /*
- * Stocks Api
+ * Message Client Bundle
  */
 
 declare(strict_types=1);
 
 namespace StocksApiBundles\MessageClient\Command;
 
-use App\MessageClient\BunnyAsyncClient;
-use App\MessageClient\ClientListener\ClientListenerProvider;
-use App\MessageClient\Exception\QueueConfigurationException;
 use Psr\Log\LoggerInterface;
 use React\EventLoop\LoopInterface;
+use StocksApiBundles\MessageClientClientListener\ClientListenerProvider;
+use StocksApiBundles\MessageClientException\QueueConfigurationException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

@@ -1,0 +1,31 @@
+resources:
+  StocksApiBundles\MessageClient\Entity\Job:
+    attributes:
+      filters:
+        - job.search_filter
+        - job.order_filter
+      normalization_context:
+        groups: [ 'job.get' ]
+      denormalization_context:
+        groups: [ 'job.post' ]
+      order: {modifiedAt: DESC, id: DESC}
+
+    collectionOperations:
+      get:
+        method: GET
+
+    itemOperations:
+      get:
+        method: GET
+      put:
+        method: PUT
+      delete:
+        method: DELETE
+
+    properties:
+      id:
+        identifier: false
+      guid:
+        identifier: true
+        swagger_context:
+          example: 'd6f68382-dd82-4324-b04c-89266d70ee2a'
