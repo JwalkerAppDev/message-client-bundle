@@ -12,7 +12,7 @@ use StocksApiBundles\MessageClient\Entity\Interfaces\EntityGuidInterface;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Trait EntityGuidTrait.
+ * Traits EntityGuidTrait.
  */
 trait EntityGuidTrait
 {

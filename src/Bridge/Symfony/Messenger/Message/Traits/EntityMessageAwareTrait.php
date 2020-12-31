@@ -12,7 +12,7 @@ use Ramsey\Uuid\UuidInterface;
 use StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\Message\EntityMessageAwareInterface;
 
 /**
- * Trait EntityMessageAwareTrait.
+ * Traits EntityMessageAwareTrait.
  */
 trait EntityMessageAwareTrait
 {

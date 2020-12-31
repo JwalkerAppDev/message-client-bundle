@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace App\Entity\Factory;
+namespace StocksApiBundles\MessageClient\Entity\Factory;
 
 abstract class AbstractFactory
 {

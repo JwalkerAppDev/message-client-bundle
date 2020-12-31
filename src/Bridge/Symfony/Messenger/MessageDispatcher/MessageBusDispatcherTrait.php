@@ -12,7 +12,7 @@ use Symfony\Component\Messenger\Exception\HandlerFailedException;
 use Symfony\Component\Messenger\MessageBusInterface;
 
 /**
- * Trait MessageBusDispatcherTrait.
+ * Traits MessageBusDispatcherTrait.
  */
 trait MessageBusDispatcherTrait
 {

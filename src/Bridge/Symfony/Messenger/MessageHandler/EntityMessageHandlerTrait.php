@@ -13,7 +13,7 @@ use StocksApiBundles\MessageClient\Bridge\Symfony\Messenger\Message\EntityMessag
 use StocksApiBundles\MessageClient\Entity\Interfaces\EntityInterface;
 
 /**
- * Trait EntityMessageHandlerTrait.
+ * Traits EntityMessageHandlerTrait.
  */
 trait EntityMessageHandlerTrait
 {

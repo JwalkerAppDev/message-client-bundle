@@ -12,7 +12,7 @@ use StocksApiBundles\MessageClient\Entity\Job;
 use StocksApiBundles\MessageClient\Entity\JobItem;
 
 /**
- * Trait JobEventTrait.
+ * Traits JobEventTrait.
  */
 trait JobEventTrait
 {
